@@ -1,0 +1,23 @@
+ASSIGNMENT 4th May, 2024
+
+1. Method Override and Adding a Method:
+Define a superclass Item with a method display_info() that returns "Item information". Create a subclass Book inheriting from Item with attributes title, 
+author, and isbn. Override the display_info() method in the Book class to return the title, author, and ISBN of the book. Additionally, add a method 
+check_availability() to the Book class that returns whether the book is available or not based on a boolean attribute available.
+
+2. Set Attribute Values with Properties:
+Create a class Library with a list attribute books to store instances of the Book class. Implement a method add_book() to add a new book to the library. 
+Implement a property available_books that returns a list of available books (books with available attribute set to True). Write a program to create an 
+instance of the Library class, add some books using the add_book() method, and display the list of available books using the available_books property.
+
+3. Types of Methods:
+Define a class LibraryMember with attributes name and borrowed_books (a list). Implement the following methods:
+An instance method borrow_book(self, book) that adds the given book to the borrowed_books list.
+A class method calculate_fine(cls, days) that calculates the fine amount based on the number of days overdue (assume a fixed fine rate per day).
+A static method print_borrowed_books(books) that takes a list of books and prints their titles.
+Write a program to demonstrate the usage of each method.
+
+4. Application of Properties:
+Create a class StudentLibraryCard with attributes student_id and borrow_limit. Implement properties for both attributes, ensuring that the student ID 
+is a non-negative integer and the borrow limit is a positive integer. Write a program to create an instance of the StudentLibraryCard class, set its attributes 
+using the properties, and display the student ID and borrow limit.
