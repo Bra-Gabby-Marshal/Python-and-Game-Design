@@ -1,0 +1,20 @@
+Product: Laptop
+Price: 10000.0
+Stock: 50
+
+Product: iPhone
+Price: 8000.0
+Stock: 10
+
+Product: Smartphone
+Price: 4000.0
+Stock: 60
+
+Product: Tablet
+Price: 500.0
+Stock: 4
+
+Product: Smart Watch
+Price: 600.0
+Stock: 20
+
